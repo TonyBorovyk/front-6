@@ -1,0 +1,9 @@
+li em {
+  color: black;
+  text-align: center;
+}
+
+li.class1 em {
+  text-align: center;
+  font-size: 25px;
+}

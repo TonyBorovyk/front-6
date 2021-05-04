@@ -1,0 +1,152 @@
+body {
+  font-family: "Rubik", sans-serif;
+  color: #181817;
+  font-size: 24px;
+  background-color: #1e1f21;
+}
+
+#container {
+  background-color: #1e1f21;
+  width: 1800px;
+  text-align: center;
+}
+
+#records-block {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  overflow-y: auto;
+  width: 500px;
+  height: 800px;
+  background-color: #1e1f21;
+}
+
+#record-content {
+  text-align: center;
+  width: 1400px;
+  height: 800px;
+  background-color: #1e1f21;
+}
+
+.input {
+  color: white;
+  background-color: #181817;
+  border: none;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  float: right;
+}
+
+#record-name {
+  display: block;
+  float: left;
+  box-sizing: border-box;
+  margin: 10px auto 0 0;
+  width: 900px;
+  padding: 10px;
+}
+
+#record-name:focus,
+#record-text:focus,
+#delete-record:focus {
+  outline: none;
+}
+
+#delete-record {
+  margin: 7px;
+  width: 100px;
+  padding: 10px;
+  float: left;
+  background-color: red;
+}
+
+#delete-record:hover {
+  background-color: #403d39;
+}
+
+#delete-record:active {
+  background-color: #514e49;
+}
+
+#record-text {
+  margin: 0 10px 10px;
+  margin: 0;
+  width: 900px;
+  height: 700px;
+  padding: 10px;
+}
+
+.record-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 800px;
+  width: 500px;
+}
+
+.record-single {
+  position: relative;
+  background-color: #181817;
+  text-align: center;
+  color: white;
+  width: 500px;
+  height: 100px;
+}
+
+.record-single:hover {
+  background-color: #1f1f1e;
+}
+
+.record-chosen {
+  background-color: #c2983d;
+}
+
+.record-chosen:hover {
+  background-color: #c2983d;
+  cursor: default;
+}
+
+#add-record {
+  background-color: green;
+  box-sizing: border-box;
+  margin: 10px;
+  width: 100px;
+  padding: 10px;
+}
+#add-record:active {
+  background-color: #495149;
+}
+
+#record-name-preview {
+  position: absolute;
+  top: 5px;
+  left: 13%;
+  align-self: center;
+  margin: 0;
+  text-align: center;
+  width: 300px;
+  overflow: hidden;
+}
+
+#record-text-preview {
+  position: absolute;
+  top: 42%;
+  left: 13px;
+  width: 380px;
+  font-size: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#record-date {
+  position: absolute;
+  bottom: 5px;
+  left: 13px;
+  margin: 0;
+  width: 380px;
+  font-size: 16px;
+  text-align: center;
+  overflow: hidden;
+}
